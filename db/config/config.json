@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "seanryan",
+    "database": "address-bloc-dev",
+    "port": 65535,
+  "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "seanryan",
+    "database": "address-bloc-test",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
