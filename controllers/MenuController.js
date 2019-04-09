@@ -21,7 +21,7 @@ module.exports = class MenuController {
   }
 
   main() {
-    console.log(`Welcome to AddressBloc!`);
+    console.log(`Welcome to Command Line Contacts!`);
     inquirer.prompt(this.mainMenuQuestions).then((response) => {
       switch (response.mainMenuChoice) {
         case "Add new contact":
